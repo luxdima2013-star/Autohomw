@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autohome",
+  "version": "1.0.0",
+  "name": "AutoHome",
+  "description": "После смерти сам возрождается и пишет в чат команду (по умолчанию /home hom).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.autohome.AutoHomeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
